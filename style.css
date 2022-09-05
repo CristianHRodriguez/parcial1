@@ -1,0 +1,133 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  margin: auto;
+  max-width: 1280px;
+  padding-left: 0.5em;
+  background-color:azure;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.img_title{
+  width: 50%;
+  /*margin-top: 1.5em;
+  margin-bottom: 2em;*/
+  display:block;
+  margin: 0px auto;
+}
+nav{
+  list-style: none;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+nav a{
+  padding-right: 0.2em;
+  text-decoration: none;
+  color: red;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+li a::after{
+  content: " | ";
+}
+
+p{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+figure{
+  width: 50EM;
+}
+
+.mini_poke{
+  width: 1.8em;
+}
+
+previous{
+  display: block;
+  float: left;
+  margin-left: 0.5em;
+}
+
+previous a{
+  padding-right: 0.2em;
+  text-decoration: none;
+  color: grey;
+}
+
+next{
+  display: block;
+  float:right;
+  margin-right: 1em;
+}
+
+next a{
+  padding-right: 0.2em;
+  text-decoration: none;
+  color: grey;
+}
+
+.name_poke{
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: orange;
+  font-size:4em;
+  text-shadow: 4px 4px 5px red;
+  padding-top: 1em;
+}
+
+.num_poke{
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: orange;
+  font-size:2em;
+}
+
+.img_main{
+  display: block;
+  padding: 0%;
+  float: left;
+  width: 50%;
+  
+}
+
+.description{
+  margin-top: 3em;
+  margin-left: 30em;
+}
+.description h3{
+  padding-bottom: 0.5em;
+  padding-top: 0.2em;
+}
+.description ul li{
+  list-style:circle;
+}
+
+.img_team{
+  display: inline-table;
+  width: 20em;
+  margin-left: 35px;
+  margin-bottom: 35px;
+  justify-content: space-between;
+}
+.img_team img{
+  width: 20em;
+  display: inherit;
+}
+.img_team figcaption{
+  display: inherit;
+}
+
